@@ -15,7 +15,6 @@ jobs:
 
       - name: Run a one-line script
         run: |
-          echo " " >> README.md
           git config user.name solvedd
           git config user.email edd@schauman-haigh.gg
           git commit --allow-empty -m "Always Green!"
